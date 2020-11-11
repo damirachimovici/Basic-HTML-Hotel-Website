@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web-Dev Hotel | Contact</title>
+    <meta name="description" content="Welcome to the one of the bunch of fictive hotels on the internet">
+    <meta name="keywords" content="hotel clisura dunarii">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0f6eb11b56.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">WDEV</a></h1>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section id="contact-form" class="py-2">
+    <div class="container">
+        <h1 class="l-heading">
+            <span class="text-primary">Contact</span> Us
+        </h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="text" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</section>
+<section id="contact-info" class="bg-dark">
+    <section id="container">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Great Location</h3>
+            <p>50 Main st, Boston MA</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone number</h3>
+            <p>0256 402 321</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email Address</h3>
+            <p>frontdesk@hotelwdev.ro</p>
+        </div>
+</section>
+<footer id="main-footer">
+    <p>Hotel BT &copy; 2019, All Rights reserved</p>
+</footer>
+</body>
+</html>

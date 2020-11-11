@@ -1,3 +1,3 @@
-Modifying the header.
-Creating the about-info section and styling it
-Creating the testimonials section and styling it
+1. Modifying the header.
+2. Creating the about-info section and styling it
+3. Creating the testimonials section and styling it
